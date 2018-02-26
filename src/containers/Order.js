@@ -9,8 +9,8 @@ export default () => (
         <span>Твоё имя:  <input type="text"/></span>
         <span>Email:     <input type="text"/></span>
         <span>Телефон:   <input type="text"/></span>
-        <span>Адрес:     <input type="text"/></span>
-        <span>Пожелания: <input type="text"/></span>
+        <span>Адрес:     <textarea /></span>
+        <span>Пожелания: <textarea rows="4"/></span>
       </div>
       <Link to="/order/complete/">
         <button type="submit">Оформить заказ</button>
