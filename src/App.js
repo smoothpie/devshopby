@@ -92,10 +92,11 @@ const AppStyles = styled.div`
     height: 600px;
     display: flex;
     justify-content: space-between;
+    padding-left: 80px;
   }
 
   .header_description {
-    margin: 100px 0 0 80px;
+    margin-top: 100px;
   }
 
   .header_description h1 {
@@ -113,8 +114,6 @@ const AppStyles = styled.div`
     margin-top: 30px;
     width: 600px;
     height: 450px;
-    justifySelf: flex-end;
-
   }
 
   .store ul {
@@ -249,7 +248,7 @@ const AppStyles = styled.div`
     align-items: center;
     border-radius: 20px;
     padding: 20px;
-    width: 500px
+    max-width: 400px
   }
 
   form span {
@@ -258,14 +257,20 @@ const AppStyles = styled.div`
     margin: 15px;
   }
 
-  input {
+  input, textarea {
     background-color: #ececec;
     border: none;
     border-radius: 10px;
     margin: 10px;
-    width: 300px;
-    height: 35px;
+    width: 350px;
+    font-size: 20px;
+    color: #4c5e76;
+    padding: 0 10px;
   };
+
+  input {
+    height: 35px;
+  }
 
   button {
     width: 200px;
