@@ -119,12 +119,12 @@ const AppStyles = styled.div`
   }
 
   .header {
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 80px;
-
+    margin-top: -45px;
   }
 
   .header_description h1 {
@@ -476,9 +476,7 @@ const AppStyles = styled.div`
     }
     .header {
       padding: 0;
-      height: 100vh;
-      align-items: center;
-      margin-top: -70px
+      margin-top: -85px
     }
     .header_description {
       width: 100%;
