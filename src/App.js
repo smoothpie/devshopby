@@ -64,6 +64,7 @@ const AppStyles = styled.div`
     background: #fff;
     padding: 2px 12px;
     box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    z-index: 1;
 
     a {
       color: #4c5e76;
