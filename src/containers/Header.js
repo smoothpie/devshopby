@@ -8,6 +8,6 @@ export default () => (
       <h1>для разработчиков</h1>
       <span>Мы любим крутые майкосики, знаете ли</span>
     </div>
-    <img className="dockerlogo" src={require(`../../public/images/dockerlogo.png`)} />
+    <img className="dockerlogo" src={require(`../../public/images/blurreddocker.png`)} />
   </div>
 )

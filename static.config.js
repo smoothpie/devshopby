@@ -28,18 +28,22 @@ export default {
         component: 'src/containers/Contacts',
       },
       {
-        path: `/order`,
-        component: 'src/containers/Order'
-      },
-      {
-        path: '/order/complete',
+        path: `/thanks`,
         component: 'src/containers/Thanks'
       },
       {
         is404: true,
         component: 'src/containers/404',
       },
-    ]
+    ].concat(
+          products.map(product => ({
+            path: `/product/${product.id}/order`,
+        component: 'src/containers/Order',
+        getData: () => ({
+          product
+        })
+      })),
+)
   },
   renderToHtml: (render, Comp, meta) => {
     const sheet = new ServerStyleSheet()

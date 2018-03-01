@@ -22,69 +22,76 @@
   },
   {
     "id": 4,
-    "title": "Майка Docker",
+    "title": "Майка Docker #1",
     "category": "tshirt",
     "price": "29 p.",
     "image": "docker1.jpg"
   },
   {
     "id": 5,
+    "title": "Майка Docker #2",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "bigdocker.jpg"
+  },
+  {
+    "id": 6,
     "title": "Майка Шмокер",
     "category": "tshirt",
     "price": "29 p.",
     "image": "shmocker.jpg"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Магнитно-меловая доска Docker",
     "category": "other",
     "price": "35 p.",
     "image": "dockerchalk.jpg"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Майка Java",
     "category": "tshirt",
     "price": "29 p.",
     "image": "java.jpg"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Майка Python",
     "category": "tshirt",
     "price": "29 p.",
     "image": "python.jpg"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Майка Chrome Dino",
     "category": "tshirt",
     "price": "29 p.",
     "image": "dino.jpg"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Майка Developers",
     "category": "tshirt",
     "price": "29 p.",
     "image": "ballmer.jpg"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Майка React",
     "category": "tshirt",
     "price": "29 p.",
     "image": "react.jpg"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Майка Golang",
     "category": "tshirt",
     "price": "29 p.",
     "image": "go.jpg"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Стикеры",
     "category": "stickers",
     "price": "2 p.",

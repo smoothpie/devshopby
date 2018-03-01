@@ -2,26 +2,19 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 
 export default withRouteData(({ product }) => {
-  if (product.id == 1 || product.id == 2) {
+    if (product.id == 1 || product.id == 2) {
     return (
       <div className="product-page">
         <div className="product_images">
-          <img src={require(`../../public/images/forkfront.jpg`)}/>
-          <img src={require(`../../public/images/forkback.jpg`)}/>
+          <img src={require(`../../public/images/products/forkfront.jpg`)}/>
+          <img src={require(`../../public/images/products/forkback.jpg`)}/>
         </div>
         <div className="product_description">
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
-          <p>Размер:
-            <select className="product_size">
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-              <option value="XL">XL</option>
-              <option value="XXL">XXL</option>
-          </select></p>
-          <Link to={`/order/`}>
-            <button>Заказать</button>
+          <p>Размерный ряд: S - XXL.</p>
+          <Link to={`/product/${product.id}/order`}>
+            <button className="order-button">Заказать</button>
           </Link>
         </div>
       </div>
@@ -30,20 +23,15 @@ export default withRouteData(({ product }) => {
   if (product.category === "tshirt") {
     return (
       <div className="product-page">
-        <img src={require(`../../public/images/${product.image}`)} />
+        <div className="product_images">
+          <img src={require(`../../public/images/products/${product.image}`)} />
+        </div>
         <div className="product_description">
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
-          <p>Размер:
-            <select className="product_size">
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-              <option value="XL">XL</option>
-              <option value="XXL">XXL</option>
-          </select></p>
-          <Link to="/order">
-            <button>Заказать</button>
+          <p>Размерный ряд: S - XXL.</p>
+          <Link to={`/product/${product.id}/order`}>
+            <button className="order-button">Заказать</button>
           </Link>
         </div>
       </div>
@@ -51,12 +39,14 @@ export default withRouteData(({ product }) => {
   } else {
     return (
       <div className="product-page">
-        <img src={require(`../../public/images/${product.image}`)}/>
+        <div className="product_images">
+          <img src={require(`../../public/images/products/${product.image}`)}/>
+        </div>
         <div className="product_description">
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
-          <Link to="/order">
-            <button>Заказать</button>
+          <Link to={`/product/${product.id}/order`}>
+            <button className="order-button">Заказать</button>
           </Link>
         </div>
       </div>

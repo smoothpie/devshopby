@@ -1,7 +1,6 @@
 import React from 'react'
 import { withRouteData, Link } from 'react-static'
 import Header from './Header.js';
-//
 
 export default withRouteData(({ products }) => (
   <div className="store">
@@ -18,9 +17,9 @@ export default withRouteData(({ products }) => (
         key={product.id}
         >
         <Link to={`/product/${product.id}/`}>
-          <img
-            src={require(`../../public/images/${product.image}`)}
-            />
+        <img
+          src={require(`../../public/images/products/${product.image}`)}
+        />
         </Link>
         <h3>
           <Link to={`/product/${product.id}/`}>{product.title}</Link>
