@@ -451,6 +451,9 @@ const AppStyles = styled.div`
   }
 
   @media (max-width: 500px) {
+    .header {
+      margin-top: -120px
+    }
     .product-page {
       margin-top: -5px
     }
