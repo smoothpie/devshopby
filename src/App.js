@@ -586,7 +586,7 @@ const App = () => (
             </div>
             <div className="social-links">
               <a href="https://instagram.com/devshop.by"><img src={require('../public/images/icons/instagram.png')} /></a>
-              <a href="https://vk.com/devshop.by"><img src={require('../public/images/icons/vk.png')} /></a>
+              <a href="https://vk.com/devshopby"><img src={require('../public/images/icons/vk.png')} /></a>
             </div>
           </div>
         </nav>
