@@ -6,7 +6,7 @@ import Routes from 'react-static-routes'
 
 injectGlobal`
   body {
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Comfortaa';
     font-weight: 300;
     font-size: 100%;
     margin: 0;
@@ -189,13 +189,12 @@ const AppStyles = styled.div`
 
   .product h3 {
     text-align: center;
-    text-transform: uppercase;
     font-size: 1.5em;
   }
 
   .product p {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-top: -10px;
     color: #333;
@@ -577,8 +576,8 @@ const App = () => (
               />
           </Link>
           <div className="links">
-            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light, sans-serif', margin: '0 5px' }} to="/">КАТАЛОГ</Link>
-            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light, sans-serif', margin: '0 5px'}} to="/contacts">КОНТАКТЫ</Link>
+            <Link style={{ fontWeight: 'bold', fontFamily: 'Comfortaa', margin: '0 5px' }} to="/">КАТАЛОГ</Link>
+            <Link style={{ fontWeight: 'bold', fontFamily: 'Comfortaa', margin: '0 5px'}} to="/contacts">КОНТАКТЫ</Link>
           </div>
           <div className="nav_contacts">
             <div className="phonemail">
