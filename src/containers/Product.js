@@ -13,7 +13,7 @@ export default withRouteData(({ product }) => {
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
           <p>Размерный ряд: S - XXL.</p>
-          <Link to={`/product/${product.id}/order`}>
+          <Link to={`/product/${product.id}/order`} style={{ fontFamily: 'Comfortaa' }}>
             <button className="order-button">Заказать</button>
           </Link>
         </div>
@@ -30,7 +30,7 @@ export default withRouteData(({ product }) => {
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
           <p>Размерный ряд: S - XXL.</p>
-          <Link to={`/product/${product.id}/order`}>
+          <Link to={`/product/${product.id}/order`} style={{ fontFamily: 'Comfortaa' }}>
             <button className="order-button">Заказать</button>
           </Link>
         </div>
@@ -45,7 +45,7 @@ export default withRouteData(({ product }) => {
         <div className="product_description">
           <h1>{product.title}</h1>
           <p>Стоимость: {product.price}</p>
-          <Link to={`/product/${product.id}/order`}>
+          <Link to={`/product/${product.id}/order`} style={{ fontFamily: 'Comfortaa' }}>
             <button className="order-button">Заказать</button>
           </Link>
         </div>
