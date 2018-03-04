@@ -7,6 +7,7 @@ export default {
   getSiteData: () => ({
     title: 'Devshop.by',
   }),
+  siteRoot: 'http://devshop.by',
   getRoutes: async () => {
     return [
       {
