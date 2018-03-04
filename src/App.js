@@ -577,8 +577,8 @@ const App = () => (
               />
           </Link>
           <div className="links">
-            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light', margin: '0 5px' }} to="/">КАТАЛОГ</Link>
-            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light', margin: '0 5px'}} to="/contacts">КОНТАКТЫ</Link>
+            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light, sans-serif', margin: '0 5px' }} to="/">КАТАЛОГ</Link>
+            <Link style={{ fontWeight: 'bold', fontFamily: 'Ubuntu Light, sans-serif', margin: '0 5px'}} to="/contacts">КОНТАКТЫ</Link>
           </div>
           <div className="nav_contacts">
             <div className="phonemail">

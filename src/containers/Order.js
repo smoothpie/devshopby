@@ -33,7 +33,7 @@ export default withRouteData(({product}) => {
             <span>Адрес:     <input type="text" name="address"/></span>
             <span>Пожелания: <textarea rows="4" name="additional"/></span>
             <input type="hidden" name="product" value={product.id} />
-            <input type="hidden" name="_after" value="http://localhost:3000/thanks" />
+            <input type="hidden" name="_after" value="http://devshop.by/thanks" />
           </div>
           <button className="order-button" type="submit">Оформить заказ</button>
         </form>
@@ -81,7 +81,7 @@ export default withRouteData(({product}) => {
             <span>Адрес:     <input type="text" name="address"/></span>
             <span>Пожелания: <textarea rows="4" name="additional"/></span>
             <input type="hidden" name="product" value={product.id} />
-            <input type="hidden" name="_after" value="http://localhost:3000/thanks" />
+            <input type="hidden" name="_after" value="http://devshop.by/thanks" />
           </div>
           <button className="order-button" type="submit">Оформить заказ</button>
         </form>
