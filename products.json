@@ -1,97 +1,132 @@
 [
   {
     "id": 1,
-    "title": "Майка Fork Me",
+    "title": "Ваш принт",
     "category": "tshirt",
-    "price": "35 р.",
-    "image": "forkfront.jpg"
+    "price": "29 p.",
+    "image": "yourdesign.png"
   },
   {
     "id": 2,
-    "title": "Майка Fork Me",
+    "title": "Майка Docker Golang Linux",
     "category": "tshirt",
-    "price": "35 р.",
-    "image": "forkback.jpg"
+    "price": "29 p.",
+    "image": "dockergo.jpg"
   },
   {
     "id": 3,
-    "title": "Магнитно-меловая доска Github",
-    "category": "other",
-    "price": "35 p.",
-    "image": "github.jpg"
+    "title": "Майка Developers",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "developersmockup.jpg"
   },
   {
     "id": 4,
-    "title": "Майка Docker #1",
+    "title": "Майка Github",
     "category": "tshirt",
     "price": "29 p.",
-    "image": "docker1.jpg"
+    "image": "githubmockup.jpg"
   },
   {
     "id": 5,
-    "title": "Майка Docker #2",
+    "title": "Майка rm -rf /",
     "category": "tshirt",
     "price": "29 p.",
-    "image": "bigdocker.jpg"
+    "image": "rm rf.jpg"
   },
   {
     "id": 6,
-    "title": "Майка Шмокер",
+    "title": "Майка Kubernetes",
     "category": "tshirt",
     "price": "29 p.",
-    "image": "shmocker.jpg"
+    "image": "kub.jpg"
   },
   {
     "id": 7,
-    "title": "Магнитно-меловая доска Docker",
-    "category": "other",
-    "price": "35 p.",
-    "image": "dockerchalk.jpg"
+    "title": "Майка React",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "reactmockup.jpg"
   },
   {
     "id": 8,
-    "title": "Майка Java",
-    "category": "tshirt",
-    "price": "29 p.",
-    "image": "java.jpg"
-  },
-  {
-    "id": 9,
-    "title": "Майка Python",
-    "category": "tshirt",
-    "price": "29 p.",
-    "image": "python.jpg"
-  },
-  {
-    "id": 10,
     "title": "Майка Chrome Dino",
     "category": "tshirt",
     "price": "29 p.",
     "image": "dino.jpg"
   },
   {
-    "id": 11,
-    "title": "Майка Developers",
+    "id": 9,
+    "title": "Майка Java",
     "category": "tshirt",
     "price": "29 p.",
-    "image": "ballmer.jpg"
+    "image": "java.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Майка Fork Me",
+    "category": "tshirt",
+    "price": "35 р.",
+    "image": "forkfront.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Майка Fork Me",
+    "category": "tshirt",
+    "price": "35 р.",
+    "image": "forkback.jpg"
   },
   {
     "id": 12,
-    "title": "Майка React",
-    "category": "tshirt",
-    "price": "29 p.",
-    "image": "react.jpg"
+    "title": "Магнитно-меловая доска Github",
+    "category": "other",
+    "price": "35 p.",
+    "image": "github.jpg"
   },
   {
     "id": 13,
+    "title": "Майка Docker #1",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "docker1.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Майка Docker #2",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "bigdocker.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Майка Шмокер",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "shmocker.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Магнитно-меловая доска Docker",
+    "category": "other",
+    "price": "35 p.",
+    "image": "dockerchalk.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Майка Python",
+    "category": "tshirt",
+    "price": "29 p.",
+    "image": "python.jpg"
+  },
+  {
+    "id": 18,
     "title": "Майка Golang",
     "category": "tshirt",
     "price": "29 p.",
     "image": "go.jpg"
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Стикеры",
     "category": "stickers",
     "price": "1 - 0.5 p., 5 - 2 р.",
