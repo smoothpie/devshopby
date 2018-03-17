@@ -12,10 +12,11 @@ export default withRouteData(({ product }) => {
           <h1>{product.title}</h1>
           <p>Принт с 1-ой стороны - 29 р. С 2-x - 35 р.</p>
           <p>Размерный ряд: S - XXL.</p>
-          <p>Присылайте свои макеты нам на почту :)</p>
+          <p>Присылайте свои макеты нам на почту!</p>
         </div>
       </div>
-  )} else if (product.id == 10 || product.id == 11) {
+    )
+  } else if (product.id == 10 || product.id == 11) {
     return (
       <div className="product-page">
         <div className="product_images">
@@ -63,4 +64,4 @@ export default withRouteData(({ product }) => {
         </div>
       )
     }
-                            })
+})
